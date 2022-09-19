@@ -1,0 +1,132 @@
+
+header{
+    background-image: url("https://www.vagalume.com.br/dynimage/news32341-big.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 45vh;
+        
+}
+nav a{
+    color:white;
+    padding:0 60px;
+    font-weight: bold;
+    text-decoration: none;
+        
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    padding:15px 0;
+
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-family: cambria;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-size: 2.9em;
+    font-family:gill sans mt;
+    border-top: 1px solid gray;
+    letter-spacing: 6px;
+}
+p{
+    color:black;
+    text-align: center;
+    position: relative;
+    width:230px;
+    left:550px;
+    top:20px;
+    border:1px solid white;
+    padding:6px;
+    font-family: cambria;
+    background-color: gray;
+    opacity: 0.9;
+}
+header img{
+    width: 65px;
+    filter: invert(1);
+}
+.play{
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    top:60px;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+}
+main{
+    height: 45vh;
+}
+main h2{
+    text-align: center;
+    font-size: 1.3em;
+    font-family: cambria;
+    padding:15px;
+}
+section{
+    height: 100%;
+}
+table{
+    text-align: left;
+    font-family:cambria;
+    padding:10px;
+}
+th{
+    height:30px;
+    border-top: 1px solid gray;
+}
+.columna{
+    background-color: rgb(58, 54, 54);
+    color:white;
+    width:125px;
+    text-align:center;
+    font-size: 0.9em;
+    text-decoration: none;
+    padding:5px;
+}
+.fecha{
+    width: 80px;
+    font-size: 0.9em;
+}
+.estado{
+    width:200px;
+    font-size: 0.8em;
+}
+.lugar{
+    width: 230px;
+    font-size: 0.8em;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding:0 120px;
+    background-color: black;
+    height: 10vh; 
+}
+footer a{
+    padding:0 7px;
+}
+
+footer img{
+    padding:4px;
+    filter:invert(1);
+    width:40px;
+}
+footer h2{
+    color:white;
+    font-size: 2em;
+    font-family: gill sans mt;
+    letter-spacing: 4px;
+    padding:7px 0 7px 20px;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+}
