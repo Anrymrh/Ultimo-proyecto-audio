@@ -38,7 +38,7 @@ p{
     text-align: center;
     position: relative;
     width:230px;
-    left:550px;
+    left:700px;
     top:20px;
     border:1px solid white;
     padding:6px;
@@ -82,6 +82,10 @@ th{
     height:30px;
     border-top: 1px solid gray;
 }
+td{
+    padding:1em;
+    
+}
 .columna{
     background-color: rgb(58, 54, 54);
     color:white;
@@ -90,6 +94,7 @@ th{
     font-size: 0.9em;
     text-decoration: none;
     padding:5px;
+    font-weight: bold;
 }
 .fecha{
     width: 80px;
